@@ -1,4 +1,4 @@
-# Mobi — Phone-Controlled Two-Wheel Robot
+# Mobi — Phone Controlled Two-Wheel Robot
 
 Mobi is a compact, custom-designed Wi-Fi robot with an animated 0.96-inch OLED face. I designed its PCB in KiCad and its rounded enclosure, motor mounts, display opening, and power-bank compartment in Fusion 360. The robot uses a Seeed XIAO ESP32-C3, a TB6612FNG dual motor driver, and two small N20 gear motors. A small ball caster supports the body behind its drive wheels.
 
@@ -19,6 +19,10 @@ There is **no obstacle or edge sensor** in this version, so operate it only on a
 ## Hardware overview
 
 Main controller: Seeed XIAO ESP32-C3 with its external Wi-Fi antenna. Motor controller: **bare** TB6612FNG SSOP-24 soldered to the custom PCB; not the breakout module. The TB6612's PWMA, PWMB, and STBY inputs are tied to 3.3 V in this board design. Display: common SSD1306 0.96-inch 128 × 64 **4-wire I2C** module, address usually 0x3C. Power: a commercial 5 V USB power bank, a **proper USB-C 5 V sink breakout**, an adequately rated power switch, and a Schottky diode feeding the XIAO VBUS input.
+
+<img width="953" height="475" alt="Screenshot 2026-11-07 121628" src="https://github.com/user-attachments/assets/69de78ca-e207-43d8-8e74-3d2a393c536d" />
+
+<img width="1117" height="751" alt="Screenshot 2026-11-07 195251" src="https://github.com/user-attachments/assets/037484f6-31d7-4fc6-af05-4c63a67aca6c" />
 
 ### Firmware pin map — updated after the pin swap
 
@@ -58,6 +62,9 @@ The current concept has a 120 × 95 mm rounded chassis, a roughly 65 × 50 mm PC
 The motor CAD references are GA12-N20-sized, but must be compared against the purchased motor shaft and bracket dimensions. Wheel diameter changes the axle height, and the caster must touch the same floor plane as both wheels. For a 32 mm wheel and 8 mm chassis clearance, the axle center must be 8 mm above the chassis bottom. The earlier 24.5 mm shaft height assumed a 65 mm wheel, so it is **not compatible** with 32 mm wheels without adjusting the design.
 
 Use the actual PCB STEP file for hole spacing, USB cutout location, and enclosure fit. Verify mounting screws, switch actuator clearance, PCB antenna keepout, and wire bends before printing the final body.
+
+<img width="796" height="715" alt="image" src="https://github.com/user-attachments/assets/1d731977-1005-4af6-915f-67cf5a6e8f29" />
+
 
 ## Required files
 

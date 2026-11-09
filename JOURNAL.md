@@ -6,7 +6,7 @@
 > [!NOTE]
 > This devlog is mirrored from [Half Life](https://halflife.hackclub.com) ([open the project](https://halflife.hackclub.com/projects/jkgprh68q3wvkgrjk6kmjads)). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-> A two wheel robot pet that has sensors to detect the world.
+> A two wheel robot pet that has sensors to detect the world. This robot has two wheels and is controlled by using wifi and a handheld device such as a phone!
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |

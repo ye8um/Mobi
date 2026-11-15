@@ -22,7 +22,7 @@ Main controller: Seeed XIAO ESP32-C3 with its external Wi-Fi antenna. Motor cont
 
 <img width="953" height="475" alt="Screenshot 2026-11-07 121628" src="https://github.com/user-attachments/assets/69de78ca-e207-43d8-8e74-3d2a393c536d" />
 
-<img width="1117" height="751" alt="Screenshot 2026-11-07 195251" src="https://github.com/user-attachments/assets/037484f6-31d7-4fc6-af05-4c63a67aca6c" />
+<img width="757" height="570" alt="Screenshot 2026-11-15 171231" src="https://github.com/user-attachments/assets/5a36a1a2-178b-4ad7-bfeb-b9d2e9945ac3" />
 
 ### Firmware pin map — updated after the pin swap
 
